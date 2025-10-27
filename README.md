@@ -50,6 +50,8 @@ npm run dev
 
 👉 Swagger docs available at: http://localhost:5000/api-docs
 
+👉 Live Swagger Documentation: https://notes-api-documentation.onrender.com/api-docs
+
 📖 API Endpoints
 👤 User Routes
 Method	Endpoint	Description
