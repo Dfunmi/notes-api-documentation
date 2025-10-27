@@ -28,7 +28,7 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:5000/api", // Change this when deployed
+        url: "https://notes-api-documentation.onrender.com", 
         description: "Local server",
       },
     ],
@@ -47,7 +47,7 @@ const options = {
       },
     ],
   },
-  apis: ["./routes/*.js"], // Path to your route files
+  apis: ["./routes/*.js"], 
 };
 
 const swaggerSpec = swaggerJSDoc(options);
