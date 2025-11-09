@@ -14,7 +14,7 @@ const router = express.Router();
 
 /**
  * @swagger
- * /users/register:
+ * /api/users/register:
  *   post:
  *     summary: Register a new user
  *     tags: [Users]
@@ -48,7 +48,7 @@ router.post("/register", registerUser);
 
 /**
  * @swagger
- * /users/login:
+ * /api/users/login:
  *   post:
  *     summary: Log in a user
  *     tags: [Users]
@@ -91,7 +91,7 @@ router.post("/login", loginUser);
 
 /**
  * @swagger
- * /users/profile:
+ * /api/users/profile:
  *   get:
  *     summary: Get logged-in user's profile
  *     tags: [Users]
